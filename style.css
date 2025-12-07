@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    color: white;
+    text-align: center;
+    background: url('https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg') repeat;
+    background-size: cover;
+    animation: moveBg 15s linear infinite;
+}
+
+@keyframes moveBg {
+    0% { background-position: 0 0; }
+    100% { background-position: 1000px 0; }
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.menu {
+    padding: 20px;
+    background: rgba(0,0,0,0.5);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    margin: 10px auto;
+    padding: 15px;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: #ff5500;
+}
+
+footer {
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    margin-top: 20px;
+}
